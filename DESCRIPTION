@@ -1,0 +1,35 @@
+Package: easy16S
+Title: Easy16S
+Version: 20.08
+Authors@R: 
+    person(given = "Cédric",
+           family = "Midoux",
+           role = c("aut", "cre"),
+           email = "cedric.midoux@inrae.fr")
+Description: a user-friendly Shiny interface for analysis
+    and visualization of metagenomic data.
+License: GPL-3
+Imports:
+    shiny,
+    phyloseq,
+    devtools,
+    BiocManager,
+    readxl,
+    DT,
+    phyloseq.extended,
+    shinyWidgets,
+    factoextra,
+    tibble,
+    reshape2,
+    scales,
+    dplyr,
+    shinydashboard,
+    glue,
+    shinymeta,
+    ggplot2,
+    magrittr,
+    shinycustomloader
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
